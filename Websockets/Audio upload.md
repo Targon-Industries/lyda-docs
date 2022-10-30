@@ -14,8 +14,8 @@ This might occur when a user does not have access to the track they're trying to
 
 ```js
 {  
-    "type": "invalidSessionTokenResponse",
-    "message": "Session token is not valid"
+	"type": "invalidSessionTokenResponse",
+	"message": "Session token is not valid"
 }
 ```
 
@@ -25,8 +25,8 @@ For proper upload handling, a separate [Initialization Request](#initialize-file
 
 ```js
 {  
-    "type": "notInitiatedResponse",
-    "message": "Please initiate file upload first"
+	"type": "notInitiatedResponse",
+	"message": "Please initiate file upload first"
 }
 ```
 
@@ -36,8 +36,8 @@ A required parameter is missing.
 
 ```js
 {  
-    "type": "missingParameterResponse",
-    "message": "Parameter " + parameterName + " is not provided"
+	"type": "missingParameterResponse",
+	"message": "Parameter " + parameterName + " is not provided"
 }
 ```
 
@@ -47,8 +47,8 @@ Returned when a file exceeds 100MB. This is a technical limitation.
 
 ```js
 {  
-    "type": "fileTooLargeResponse",
-    "message": "File size exceeds the 100MB limit."
+	"type": "fileTooLargeResponse",
+	"message": "File size exceeds the 100MB limit."
 }
 ```
 
@@ -56,8 +56,8 @@ Returned when a file exceeds 100MB. This is a technical limitation.
 
 ```js
 {  
-    "type": "incorrectOffsetResponse",
-    "message": "Please send the offset received in the last response"
+	"type": "incorrectOffsetResponse",
+	"message": "Please send the offset received in the last response"
 }
 ```
 
@@ -82,9 +82,9 @@ Returned when a file exceeds 100MB. This is a technical limitation.
 
 ```js
 {  
-    "type": "authenticationResponse",
-    "success": this.success,
-    "message": "Authentication " + (this.success ? "successful" : "failed")
+	"type": "authenticationResponse",
+	"success": this.success,
+	"message": "Authentication " + (this.success ? "successful" : "failed")
 }
 ```
 
@@ -110,10 +110,10 @@ Returned when a file exceeds 100MB. This is a technical limitation.
 
 ```js
 {  
-    "type": "initFileUploadResponse",
-    "success": this.success,
-    "message": "File upload " + (this.success ? "initialized" : "failed"),
-    "offset": range(0, fileSize)
+	"type": "initFileUploadResponse",
+	"success": this.success,
+	"message": "File upload " + (this.success ? "initialized" : "failed"),
+	"offset": range(0, fileSize)
 }
 ```
 
@@ -138,10 +138,10 @@ Instead of sending the full file, it is also possible to send multiple requests 
 
 ```js
 {  
-    "type": "initFileUploadResponse",
-    "success": this.success,
-    "message": "Successfully uploaded file chunk"),
-    "offset": range(0, fileSize)
+	"type": "initFileUploadResponse",
+	"success": this.success,
+	"message": "Successfully uploaded file chunk"),
+	"offset": range(0, fileSize)
 }
 ```
 
