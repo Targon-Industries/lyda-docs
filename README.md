@@ -1,9 +1,3 @@
-# Test
+# Websocket endpoints
 
-another test
-
-- more test
-
-| test  |      |
-| ----- | ---- |
-| table | yeah | 
+[Audio upload](Websockets/Audio%20upload.md)
