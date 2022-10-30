@@ -17,27 +17,7 @@
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "85418f4270c15507"
-          }
-        ]
-      },
-      {
-        "id": "3c9a46a909f571e0",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "54bade10b32cddcf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Websockets/Audio upload.md",
-                "mode": "preview",
-                "source": false
-              }
-            },
-            "group": "85418f4270c15507"
+            }
           }
         ]
       }
@@ -156,9 +136,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "595f98b99d3d8158",
+  "active": "4ec24379d6dac268",
   "lastOpenFiles": [
-    "Overview.md",
-    "Websockets/Audio upload.md"
+    "README.md",
+    "Websockets/Audio upload.md",
+    "Overview.md"
   ]
 }
